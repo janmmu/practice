@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/miimagen"
+        android:scaleType="fitXY"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="#ea0a0a"/>
+
+
+    <RadioGroup
+        android:id="@+id/base"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/miimagen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:id="@+id/eeuu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="@string/eeuu" />
+
+        <RadioButton
+            android:id="@+id/cuba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cuba" />
+
+        <RadioButton
+            android:id="@+id/canada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/canada" />
+
+        <RadioButton
+            android:id="@+id/venezuela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/venezuela" />
+    </RadioGroup>
+</RelativeLayout>
